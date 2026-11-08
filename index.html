@@ -1,43 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Elite Medical Clinic | Luxury Care</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<head><link rel="stylesheet" href="style.css"></head>
 <body>
-    <nav>
-        <div class="logo" style="font-weight:bold; font-size:1.5rem; color:var(--deep-blue);">ELITE MEDICAL</div>
-        <a href="#booking" class="btn">Book Now</a>
-    </nav>
     <section class="hero">
-        <div class="hero-content">
-            <h1>Elevating Your Health & Aesthetics</h1>
-            <p>Experience world-class medical care with a luxury approach. Expert physicians dedicated to your wellness.</p>
-            <a href="#booking" class="btn">Book Appointment</a>
-        </div>
+        <div class="hero-text"><h1>Redefining Medical Luxury.</h1><a href="#booking" class="btn">Book Now</a></div>
+        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800" class="hero-img">
     </section>
-    <section id="services" style="padding: 80px 10%;">
-        <h2 style="text-align:center;">Our Specialties</h2>
-        <div style="display:flex; gap:30px;">
-            <div class="card"><h3>Dermatology</h3><p>Advanced skin rejuvenation.</p></div>
-            <div class="card"><h3>Cosmetic Dental</h3><p>Perfecting your smile.</p></div>
-            <div class="card"><h3>Aesthetics</h3><p>Refining your natural beauty.</p></div>
-        </div>
-    </section>
-    <section id="gallery" class="gallery">
-        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800" alt="Before">
-        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800" alt="After">
-    </section>
-    <section id="booking" style="background:#f4f9f9; padding:80px 10%;">
-        <h2 style="text-align:center;">Request Your Consultation</h2>
-        <form id="bookingForm">
-            <input type="text" placeholder="Name" required>
-            <input type="tel" placeholder="Phone" required>
-            <textarea placeholder="Message" rows="4" required></textarea>
-            <button type="submit">Submit Request</button>
-        </form>
-    </section>
+    <div class="bento-grid">
+        <div class="bento-item span-tall"><h3>Dermatology</h3><p>Advanced care.</p></div>
+        <div class="bento-item"><h3>Dental</h3></div>
+        <div class="bento-item"><h3>Aesthetics</h3></div>
+        <div class="bento-item span-2"><h3>Patient Testimonials</h3></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
